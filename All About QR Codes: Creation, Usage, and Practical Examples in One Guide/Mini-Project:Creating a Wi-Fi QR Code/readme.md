@@ -6,7 +6,7 @@
 - nmcli -t -f active,ssid dev wifi | grep '^yes'
 
 ### 2 Get Wi-Fi Security Type
-# here my SSID Name is RAGAI_4G
+-  here my SSID Name is RAGAI_4G
 
 - nmcli -f ssid,security dev wifi | grep "RAGAI_4G" 
 
